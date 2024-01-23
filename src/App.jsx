@@ -10,6 +10,7 @@ function App() {
       <ProductContainer>
         {data.map((product)=>
               <Product
+                key={product.id}
                 name={product.name}
                 oldPrice={product.Price}
                 newPrice={product.price - product.discount}
