@@ -1,14 +1,14 @@
 import AddCartBtn from "./AddCartBtn"
 import "./Product.css"
 
-const Product = () => {
+const Product = (props) => {
   return (
     <div className="product">
             <img className="product__img" src="https://picsum.photos/180" alt="product" />
-            <h2 className="product__name">camisa</h2>
+            <h2 className="product__name">{props.name}</h2>
             <div className="product__details">
-                <p className="product__oldPrice">S/ 200</p>
-                <p className="product__price">S/ 100</p>
+                <p className="product__oldPrice">S/ {props.oldPrice}</p>
+                <p className="product__price">S/ {props.newPrice}</p>
                 <AddCartBtn/>
             </div>
     </div>

@@ -1,0 +1,56 @@
+[
+    {
+        "name": "camisa",
+        "price": 100,
+        "discount": 30,
+        "url":"https://picsum.photos/180"
+    },
+    {
+        "name": "pantalon",
+        "price": 190,
+        "discount": 30,
+        "url":"https://picsum.photos/180"
+    },
+    {
+        "name": "polo",
+        "price": 100,
+        "discount": 40,
+        "url":"https://picsum.photos/180"
+    },
+    {
+        "name": "zapatilla",
+        "price": 350,
+        "discount": 60,
+        "url":"https://picsum.photos/180"
+    },
+    {
+        "name": "short",
+        "price": 80,
+        "discount": 10,
+        "url":"https://picsum.photos/180"
+    },
+    {
+        "name": "blusa",
+        "price": 100,
+        "discount": 20,
+        "url":"https://picsum.photos/180"
+    },
+    {
+        "name": "casaca",
+        "price": 400,
+        "discount": 50,
+        "url":"https://picsum.photos/180"
+    },
+    {
+        "name": "gorro",
+        "price": 50,
+        "discount": 30,
+        "url":"https://picsum.photos/180"
+    },
+    {
+        "name": "ccanguro",
+        "price": 100,
+        "discount": 40,
+        "url":"https://picsum.photos/180"
+    }
+]
