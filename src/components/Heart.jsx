@@ -15,7 +15,7 @@ const Heart = () => {
   return (
     <div onClick={handleClick}>
         {
-            liked == true ? <FaHeart /> : <FaRegHeart />
+            liked == true ? <FaHeart className="heart" /> : <FaRegHeart  className="heart"/>
         }
     </div>
   )

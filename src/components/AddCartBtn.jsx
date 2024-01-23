@@ -2,7 +2,7 @@ import "./AddCartBtn.css"
 
 const AddCartBtn = () => {
   return (
-    <button>Comprar</button>
+    <button onClick={()=>{alert("Producto agregado al carrito")}}>Comprar</button>
   )
 }
 
