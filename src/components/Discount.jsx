@@ -2,7 +2,7 @@ import "./Discount.css";
 
 const Discount = (props) => {
   return (
-    <div className="discount">{props.discount}</div>
+    <div className="discount">{props.discount} %</div>
   )
 }
 
