@@ -12,7 +12,8 @@ function App() {
               <Product
                 key={product.id}
                 name={product.name}
-                oldPrice={product.Price}
+                discount={product.discount}
+                oldPrice={product.price}
                 newPrice={product.price - product.discount}
               />
         )}

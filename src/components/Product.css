@@ -3,7 +3,8 @@
     width: 230px;
     padding: 20px 16px;
     border-radius: 12px;
-
+    position: relative;
+    overflow: hidden;
 }
 
 .product__img{
